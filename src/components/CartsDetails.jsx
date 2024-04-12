@@ -51,11 +51,11 @@ useEffect(()=>{
                     <p><strong>Price</strong>: ₹{data.price}</p>
                     <p><strong>Dishes</strong>:{data.address}</p>
                     <p><strong>Total</strong>: ₹{data.qnty*data.price}</p>
-                    <div className="mt-5 d-flex justify-content-between align-items-center" style={{width:100,cursor:"pointer",background:"#ddd"}}>
+                    {/* <div className="mt-5 d-flex justify-content-between align-items-center" style={{width:100,cursor:"pointer",background:"#ddd"}}>
                     <span style={{fontSize:24}}>-</span>
                     <span style={{fontSize:22}}>{data.qnty}</span>
                     <span style={{fontSize:24}}>+</span>
-                    </div>
+                    </div> */}
                   </td>
                   <td>
                     <p><strong>Rating :</strong><span className='mx-2' style={{background:"green",color:"#fff",padding:"2px 5px",borderRadius:"5px"}} >{data.rating}✯</span></p>
